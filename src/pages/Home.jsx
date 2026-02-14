@@ -1,4 +1,5 @@
 import UploadForm from "../components/UploadForm";
+import History  from "./History";
 
 function Home() {
   return (
@@ -15,6 +16,13 @@ function Home() {
 
       <div className="bg-white p-10 rounded-2xl shadow-xl">
         <UploadForm />
+      </div>
+
+      <br />
+      <br />
+
+      <div className="bg-white p-10 rounded-2xl shadow-xl">
+        <History />
       </div>
 
     </div>
